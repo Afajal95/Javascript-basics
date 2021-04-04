@@ -46,3 +46,15 @@ function print_current_page()
 {
 window.print();
 }
+
+
+
+//Write a JavaScript function to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.
+
+var s1 = 5;
+var s2 = 6;
+var s3 = 7;
+
+var peri = (s1+s2+s3)/2;
+var area = Math.sqrt(peri*((peri-s1)*(peri-s2)*(peri-s3)));
+ console.log(area);
