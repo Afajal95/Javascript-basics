@@ -69,3 +69,18 @@ return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
 console.log(leapyear(2016));
 console.log(leapyear(2000));
 console.log(leapyear(2021));
+
+//Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number.
+//If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".
+
+var num = Math.ceil(Math.random() * 10);
+console.log(num);
+
+const gnum = prompt('Guess the number between 1 and 10 inclusive');
+
+if(num=== gnum){
+  console.log("Matched");
+}
+else{
+  console.log("not matched, the number was "+ num);
+}
