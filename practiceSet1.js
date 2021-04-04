@@ -58,3 +58,14 @@ var s3 = 7;
 var peri = (s1+s2+s3)/2;
 var area = Math.sqrt(peri*((peri-s1)*(peri-s2)*(peri-s3)));
  console.log(area);
+
+
+//Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.
+
+function leapyear(year)
+{
+return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+console.log(leapyear(2016));
+console.log(leapyear(2000));
+console.log(leapyear(2021));
