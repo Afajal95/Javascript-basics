@@ -84,3 +84,7 @@ if(num=== gnum){
 else{
   console.log("not matched, the number was "+ num);
 }
+
+ //Write a JavaScript program to get the website URL (loading page).
+
+console.log(document.URL);
