@@ -96,3 +96,11 @@ var varName = 'string';
 var n = 100;
 this[varName] = n;
 console.log(this[varName]);
+
+
+//Write a JavaScript exercise to get the extension of a filename.
+
+filename = "Header.php"
+console.log(filename.split('.').pop());
+filename = "abc.js"
+console.log(filename.split('.').pop());
