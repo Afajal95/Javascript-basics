@@ -88,3 +88,11 @@ else{
  //Write a JavaScript program to get the website URL (loading page).
 
 console.log(document.URL);
+
+
+//Write a JavaScript exercise to create a variable using a user-defined name.
+
+var varName = 'string';
+var n = 100;
+this[varName] = n;
+console.log(this[varName]);
